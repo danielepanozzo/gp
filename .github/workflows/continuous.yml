@@ -1,0 +1,74 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+env:
+  CTEST_OUTPUT_ON_FAILURE: ON
+  CTEST_PARALLEL_LEVEL: 2
+
+jobs:
+  ####################
+  # Linux / macOS
+  ####################
+
+  Unix:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-18.04, macos-latest, windows-2019]
+        include:
+          - os: macos-latest
+            name: macOS
+          - os: ubuntu-18.04
+            name: Linux
+          - os: windows-2019
+            name: Windows
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 10
+
+      - name: Stetup Conda
+        uses: s-weigand/setup-conda@v1
+        with:
+          conda-channels: anaconda, conda-forge
+          python-version: 3.6
+
+      - name: Install Conda Dependencies
+        run: |
+          conda install numpy -y
+          conda install scipy -y
+          conda install igl -y
+          conda install meshplot -y
+          conda install notebook -y
+
+
+      # - name: Assigment 1
+      #   run: |
+      #     cd Assignment_1
+      #     jupyter nbconvert --to notebook --execute Assigment1.ipynb
+
+      - name: Assigment 2
+        run: |
+          cd Assignment_2
+          jupyter nbconvert --to notebook --execute Assigment2.ipynb
+          jupyter nbconvert --to notebook --execute Assigment2-sphere.ipynb
+
+      - name: Assigment 3
+        run: |
+          cd Assignment_3
+          jupyter nbconvert --to notebook --execute Assigment3.ipynb
+
+      - name: Assigment 4
+        run: |
+          cd Assignment_4
+          jupyter nbconvert --to notebook --execute Assigment4.ipynb
