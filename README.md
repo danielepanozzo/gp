@@ -80,7 +80,7 @@ ISBN 1568814267
 
 ## Assignments
 
-[General Instructions](https://github.com/danielepanozzo/gp/blob/main/RULES.md)
+[General Instructions](https://github.com/danielepanozzo/gp/blob/master/RULES.md)
 
-[Assignment 1](https://github.com/danielepanozzo/gp/tree/main/Assignment_1)
+[Assignment 1](https://github.com/danielepanozzo/gp/tree/master/Assignment_1)
 
