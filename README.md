@@ -38,9 +38,9 @@ Zoom
 ### Homework Assistance:
 There will be an informal additional presentation for every assignment held on zoom, replacing the normal office hours on the following dates.
 
-| Date    	| Time        	| Location 	| Content      	|
-|---------	|-------------	|----------	|--------------	|
-| Feb.  3 	| 1 pm - 2 pm 	| Zoom     	| Assignment 1 	|
+| Date    	| Time        	| Location 	| Content      	| 
+|---------	|-------------	|----------	|--------------	| 
+| Feb.  3 	| 1 pm - 2 pm 	| Zoom     	| [Assignment 1](https://www.icloud.com/keynote/0wn-1ht1UBE9CngZMZXo6KuzQ#51_-_Assignment_1) 	| 
 
 ## Course Description
 
