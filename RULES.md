@@ -26,9 +26,28 @@ conda install scipy
 conda install jupyter
 ```
 
-To launch the notebook
+### Using jupyter notebook
+Launch the notebook
 ```
 jupyter notebook
+```
+### Using jupyter lab
+You need first install `nodejs` with version >= 12.0.0, e.g.
+```bash
+conda install nodejs==14.7.0 -c conda-forge
+```
+Next install jupyter lab with version < 3.0, e.g.
+```bash
+conda install -c conda-forge jupyterlab==2.2.0
+```
+Then install two jupyter lab extensions
+```bash
+jupyter labextension install jupyter-threejs
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+```
+Now you will be able to launch the jupyter lab and see meshplot displays.
+```bash
+jupyter lab
 ```
 
 To install the package manager conda we refer to its [website](https://docs.conda.io/en/latest/miniconda.html).
