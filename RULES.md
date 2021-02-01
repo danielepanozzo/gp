@@ -31,6 +31,7 @@ Launch the notebook
 ```
 jupyter notebook
 ```
+
 ### Using jupyter lab
 You need first install `nodejs` with version >= 12.0.0, e.g.
 ```bash
@@ -48,6 +49,11 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 Now you will be able to launch the jupyter lab and see meshplot displays.
 ```bash
 jupyter lab
+```
+
+Or you can simply download the file `environment.yml` uploaded to create conda env and all these should have already been set up. The first line of the `yml` file sets the environment's name.
+```bash
+conda env create -f environment.yml
 ```
 
 To install the package manager conda we refer to its [website](https://docs.conda.io/en/latest/miniconda.html).
