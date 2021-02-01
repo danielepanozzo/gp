@@ -15,7 +15,9 @@ Office Hours: Thursdays, 3pm-4pm on Zoom
 [zhongshi@cims.nyu.edu ](mailto:zhongshi@cims.nyu.edu )
 
 Office Hours (starting from February 8):
+
 Mondays, 9am-10am on Zoom
+
 Tuesdays, 10am-11am on Zoom
 
 *Siqi Wang*
@@ -24,7 +26,9 @@ Tuesdays, 10am-11am on Zoom
 [sw4429@nyu.edu](mailto:sw4429@nyu.edu)
 
 Office Hours (starting from February 8):
+
 Wednesday, 1pm-2pm on Zoom
+
 Friday, 4pm-5pm on Zoom
 
 ### Lectures:
