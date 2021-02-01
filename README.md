@@ -12,16 +12,20 @@ Office Hours: Thursdays, 3pm-4pm on Zoom
 *Zhongshi Jiang*
 
 [https://cs.nyu.edu/~zhongshi/](https://cs.nyu.edu/~zhongshi/)
-[zhongshi©cims.nyu.edu ](mailto:zhongshi©cims.nyu.edu )
+[zhongshi@cims.nyu.edu ](mailto:zhongshi@cims.nyu.edu )
 
-Office Hours: TBD
+Office Hours (starting from February 8):
+Mondays, 9am-10am on Zoom
+Tuesdays, 10am-11am on Zoom
 
 *Siqi Wang*
 
 [https://cs.nyu.edu/~sw4429/](https://cs.nyu.edu/~sw4429/)
 [sw4429@nyu.edu](mailto:sw4429@nyu.edu)
 
-Office Hours: TBD
+Office Hours (starting from February 8):
+Wednesday, 1pm-2pm on Zoom
+Friday, 4pm-5pm on Zoom
 
 ### Lectures:
 Thursdays at 5:10pm - 7pm
