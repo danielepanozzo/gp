@@ -87,3 +87,5 @@ ISBN 1568814267
 
 [Assignment 1](https://github.com/danielepanozzo/gp/tree/master/Assignment_1)
 
+[Assignment 2](https://github.com/danielepanozzo/gp/tree/master/Assignment_2)
+
