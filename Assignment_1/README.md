@@ -19,26 +19,13 @@ contains the coordinates of the i-th vertex.
 F is an integer array (dimension #faces x 3 where #F is the number of faces) which contains the
 descriptions of the triangles in the mesh. The i-th row of F contains the indices of the vertices in V that form the i-th face, ordered counter-clockwise.
 
-<!-- Check out the
-\href{http://eigen.tuxfamily.org/dox/GettingStarted.html}{"Getting Started"}
-page of \texttt{Eigen} as well as the
-\href{http://eigen.tuxfamily.org/dox/group__QuickRefPage.html}{Quick Reference}
-page to acquaint yourselves with the basic matrix operations supported. -->
-
 Note that you need to install `numpy` manually with `conda install numpy`.
 
 ### Installing igl and Running the Tutorials
 
-If you haven't already, install `igl` by
-```bash
-conda install -c conda-forge igl
-```
+Follow the steps in the [General Instructions](https://github.com/danielepanozzo/gp/blob/master/RULES.md) to install libigl.
 
-Next, to run the tutorials you need to install the jupyther notebook
-```bash
-conda install -c conda-forge jupyterlab
-```
-and download them from the [tutorial repository](https://github.com/libigl/libigl-python-bindings/tree/master/tutorial).
+You can find an extensive set of tutorials at [tutorial repository](https://github.com/libigl/libigl-python-bindings/tree/master/tutorial).
 
 
 ## Neighborhood Computations
