@@ -82,6 +82,14 @@ ISBN 1568814267
 
 [04 - Meshes](https://www.icloud.com/keynote/0JmlKg2IeArA9495lKJWsZx-Q#04_-_Meshes)
 
+[05 - Reconstruction](https://www.icloud.com/keynote/0dytfkT2Uy5z1vRK7wuoxeRFQ#05_-_Reconstruction)
+
+[06 -Normal Estimation](https://www.icloud.com/keynote/0MZT9xxzCdImuhzwtGCw0sVwA#06_-_Normal_Estimation)
+
+[07 - Curves](https://www.icloud.com/keynote/0P8aqJTe9SQrtro9WdbFGGFsA#07_-_Curves)
+
+[08 - Surfaces](https://www.icloud.com/keynote/04OmHitgtMUT80o1wewv91okw#08_-_Surfaces)
+
 ## Assignments
 
 [General Instructions](https://github.com/danielepanozzo/gp/blob/master/RULES.md)
