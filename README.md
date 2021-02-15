@@ -41,7 +41,7 @@ There will be an informal additional presentation for every assignment held on z
 | Date    	| Time        	| Location 	| Content      	| 
 |---------	|-------------	|----------	|--------------	| 
 | Feb.  3 	| 1 pm - 2 pm 	| Zoom     	| [Assignment 1](https://www.icloud.com/keynote/0wn-1ht1UBE9CngZMZXo6KuzQ#51_-_Assignment_1) 	| 
-| Feb. 15 	| 1 pm - 2 pm  	| Zoom     	| [Assignment 2](https://www.icloud.com/keynote/0gd-pCW6PTlUZ_R7i4r5fGBIA#52_-_Assignment_2) 	| 
+| Feb. 16 	| 2 pm - 3 pm  	| Zoom     	| [Assignment 2](https://www.icloud.com/keynote/0gd-pCW6PTlUZ_R7i4r5fGBIA#52_-_Assignment_2) 	| 
 
 ## Course Description
 
