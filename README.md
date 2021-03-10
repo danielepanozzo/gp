@@ -91,6 +91,8 @@ ISBN 1568814267
 
 [08 - Surfaces](https://www.icloud.com/keynote/04OmHitgtMUT80o1wewv91okw#08_-_Surfaces)
 
+[09 - Smoothing](https://www.icloud.com/keynote/0dQTZx7fS1J65RpEySD_QTcgQ#09_-_Smoothing)
+
 ## Assignments
 
 [General Instructions](https://github.com/danielepanozzo/gp/blob/master/RULES.md)
