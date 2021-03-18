@@ -43,7 +43,7 @@ There will be an informal additional presentation for every assignment held on z
 | Feb.  3 	| 1 pm - 2 pm 	| Zoom     	| [Assignment 1](https://www.icloud.com/keynote/0wn-1ht1UBE9CngZMZXo6KuzQ#51_-_Assignment_1) 	| 
 | Feb. 16 	| 2 pm - 3 pm  	| Zoom     	| [Assignment 2](https://www.icloud.com/keynote/0gd-pCW6PTlUZ_R7i4r5fGBIA#52_-_Assignment_2) 	| 
 | Mar. 8   	| 9 am - 10 am  | Zoom     	| [Assignment 3](https://www.icloud.com/keynote/05ylOXzeoby-YdGWXVsyfG_7g#53_-_Assignment_3) 	| 
-| TBD     	| TBD           | Zoom     	| [Laplacian](https://www.icloud.com/keynote/0cxngM8nUSjJUKau3utjlJYYw#55_-_Cotangent_Laplacian) 	| 
+| Mar. 22  	| 9 am - 10 am  | Zoom     	| [Laplacian](https://www.icloud.com/keynote/0cxngM8nUSjJUKau3utjlJYYw#55_-_Cotangent_Laplacian) 	| 
 | TBD     	| TBD           | Zoom     	| [Assignment 4](https://www.icloud.com/keynote/07GdsuR4kfuF0G7JzvzdTjpDw#54_-_Assignment_4) 	| 
 
 ## Course Description
