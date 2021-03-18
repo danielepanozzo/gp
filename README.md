@@ -43,6 +43,8 @@ There will be an informal additional presentation for every assignment held on z
 | Feb.  3 	| 1 pm - 2 pm 	| Zoom     	| [Assignment 1](https://www.icloud.com/keynote/0wn-1ht1UBE9CngZMZXo6KuzQ#51_-_Assignment_1) 	| 
 | Feb. 16 	| 2 pm - 3 pm  	| Zoom     	| [Assignment 2](https://www.icloud.com/keynote/0gd-pCW6PTlUZ_R7i4r5fGBIA#52_-_Assignment_2) 	| 
 | Mar. 8   	| 9 am - 10 am  | Zoom     	| [Assignment 3](https://www.icloud.com/keynote/05ylOXzeoby-YdGWXVsyfG_7g#53_-_Assignment_3) 	| 
+| TBD     	| TBD           | Zoom     	| [Laplacian](https://www.icloud.com/keynote/0cxngM8nUSjJUKau3utjlJYYw#55_-_Cotangent_Laplacian) 	| 
+| TBD     	| TBD           | Zoom     	| [Assignment 4](https://www.icloud.com/keynote/07GdsuR4kfuF0G7JzvzdTjpDw#54_-_Assignment_4) 	| 
 
 ## Course Description
 
@@ -93,6 +95,12 @@ ISBN 1568814267
 
 [09 - Smoothing](https://www.icloud.com/keynote/0dQTZx7fS1J65RpEySD_QTcgQ#09_-_Smoothing)
 
+[10 - Directional Fields](https://www.icloud.com/keynote/0PsMbCAZoaQHxUojsBcab4DoA#10_-_Directional_Fields)
+
+[11 - Single Patch Parametrization](https://www.icloud.com/keynote/0Z35I9saTZtdtpJKo8KCAiSZQ#11_-_Single_Patch_Parametrization)
+
+[12 - Global Parametrization](https://www.icloud.com/keynote/0g4pYmicITza1RBfZs1G2WOwg#12_-_Global_Parametrization)
+
 ## Assignments
 
 [General Instructions](https://github.com/danielepanozzo/gp/blob/master/RULES.md)
@@ -102,3 +110,5 @@ ISBN 1568814267
 [Assignment 2](https://github.com/danielepanozzo/gp/tree/master/Assignment_2)
 
 [Assignment 3](https://github.com/danielepanozzo/gp/tree/master/Assignment_3)
+
+[Assignment 4](https://github.com/danielepanozzo/gp/tree/master/Assignment_4)
