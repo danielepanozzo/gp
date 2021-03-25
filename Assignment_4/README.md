@@ -56,16 +56,16 @@ This yields a sparse quadratic form `u^* Q u`, where the complex column vector `
 Thus, finding the smoothest field under the prescribed constraints is equivalent solving
 <br/>
 ![](https://latex.codecogs.com/svg.latex?\begin{matrix}&&\min&#126;&#126;u^*Q&space;u&#92;&#92;&\textrm{such&space;that}&&#126;&#126;u|_{cf}=c,\end{matrix})<br/>
-<!-- \begin{eqnarray*}
-&&\min ~~u^* Q u\\
-&\textrm{such that}&~~ u|_{cf} = c,
-\end{eqnarray*} -->
+<!-- \begin{align*}
+\min u^* Q u \\
+ u|_{cf} &= c,
+\end{align*} -->
 where `cf` are the constrained face indices and `c` are the prescribed vectors at those faces. We can differentiate the smoothness energy to find its minimum, thus obtaining a (complex) linear system
 <br/>
 ![](https://latex.codecogs.com/svg.latex?\begin{align*}Q&space;u&=0&#92;&#92;\textrm{such&space;that}~~u|_{cf}&space;&=c.\end{align*})<br/>
 <!-- \begin{align*}
     Q u &= 0 \\
-    \textrm{such that}~~ u|_{cf} &= c.
+    u|_{cf} &= c.
 \end{align*} -->
 This system's solution describes the smoothly interpolated vector field.
 
