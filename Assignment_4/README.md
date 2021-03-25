@@ -55,14 +55,14 @@ complex matrix `Q_fg`. The full field's smoothness can then be written as the su
 This yields a sparse quadratic form `u^* Q u`, where the complex column vector `u` encodes each each per-face vector. The row vector `u^*` is `u`'s adjoint (conjugate transpose), and `Q` is the appropriate combination of the matrices `Q_{fg}`.
 Thus, finding the smoothest field under the prescribed constraints is equivalent solving
 <br/>
-![](https://latex.codecogs.com/svg.latex?\begin{matrix}&&\min&#126;&#126;u^*Q&space;u&#92;&#92;&\textrm{such&space;that}&&#126;&#126;u|_{cf}=c,\end{matrix})<br/>
+![](<img src="https://latex.codecogs.com/svg.image?\begin{align*}\min&space;u^*&space;Q&space;u&space;\\&space;u|_{cf}&space;&=&space;c,\end{align*}" title="\begin{align*}\min u^* Q u \\ u|_{cf} &= c,\end{align*}" />)<br/>
 <!-- \begin{align*}
 \min u^* Q u \\
  u|_{cf} &= c,
 \end{align*} -->
 where `cf` are the constrained face indices and `c` are the prescribed vectors at those faces. We can differentiate the smoothness energy to find its minimum, thus obtaining a (complex) linear system
 <br/>
-![](https://latex.codecogs.com/svg.latex?\begin{align*}Q&space;u&=0&#92;&#92;\textrm{such&space;that}~~u|_{cf}&space;&=c.\end{align*})<br/>
+![](<img src="https://latex.codecogs.com/svg.image?\begin{align*}&space;&space;&space;&space;Q&space;u&space;&=&space;0&space;\\&space;&space;&space;&space;u|_{cf}&space;&=&space;c.\end{align*}" title="\begin{align*} Q u &= 0 \\ u|_{cf} &= c.\end{align*}" />)<br/>
 <!-- \begin{align*}
     Q u &= 0 \\
     u|_{cf} &= c.
