@@ -143,6 +143,7 @@ Your task is
 
 <div align=center><img width=50% height=50% src=img/sf_1.png/><img width=50% height=50% src=img/sf_2.png/></div>
 
+
 A vector field and the reconstructed scalar function. Note the scalar function gradient's deviation from the input field.
 
 *Relevant `igl` functions:* `grad` calculates the gradient matrix explained above. `doublearea` can be used to compute triangle areas.
