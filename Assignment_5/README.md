@@ -40,12 +40,13 @@ The selected handles can be transformed by selecting the appropriate mouse mode 
 
 We remove the high-frequency details from the vertices <img src="https://render.githubusercontent.com/render/math?math=R"> in <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}"> by minimizing the thin-plate energy, which involves solving a bi-Laplacian system arising from the quadratic energy minimization:
 
-$$
+<img align="center" width="200" src="https://i.imgur.com/6IRzdBj.png">
+<!-- 
 \begin{aligned} \min_\textbf{v} & \quad\textbf{v}^T \textbf{L}_\omega \textbf{M}^{-1} \textbf{L}_\omega \textbf{v} \\
  \text{subject to}&
  \quad \textbf{v}_H = \textbf{o}_H,
 \end{aligned}
-$$
+-->
 
 where <img src="https://render.githubusercontent.com/render/math?math=\textbf{o}_H"> are the handle <img src="https://render.githubusercontent.com/render/math?math=H">'s vertex positions, <img src="https://render.githubusercontent.com/render/math?math=\textbf{L}_\omega"> is the cotan Laplacian of <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}">, and <img src="https://render.githubusercontent.com/render/math?math=\textbf{M}"> is the mass matrix of <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}">.
 Notice that <img src="https://render.githubusercontent.com/render/math?math=\textbf{L}_\omega"> is the symmetric matrix consisting of the cotangent weights ONLY (without the division by Voronoi areas). In other words, it evaluates an "integrated" Laplacian rather than an "averaged" laplacian when applied to a vector of vertices. The inverse mass matrix appearing in the formula above then applies the appropriate rescaling so that the laplacian operator can be applied again (i.e., so that the Laplacian value computed at each vertex can be interpreted as a piecewise linear scalar field whose Laplacian can be computed).
@@ -63,12 +64,13 @@ This optimization will produce a mesh similar to the one in Figure 2. Note that 
 *Fig. 3: Deformed/Smoothed Meshes*
 
 The new deformed mesh is computed similarly to the previous step, by solving the minimization:
-$$
+<img align="center" width="200" src="https://i.imgur.com/xv8ZcsA.png">
+<!-- $$ 
 \begin{aligned} \min_\textbf{v}& \quad \textbf{v}^T \textbf{L}_\omega \textbf{M}^{-1} \textbf{L}_\omega \textbf{v} \\
  \text{subject to}&
  \quad \textbf{v}_H = t(\textbf{o}_H),
 \end{aligned}
-$$
+$$ -->
 where <img src="https://render.githubusercontent.com/render/math?math=t(\textbf{o}_H)"> are the new handle vertex positions after applying the user's transformation. We call this mesh <img src="https://render.githubusercontent.com/render/math?math=\mathcal{B}'">.
 
 *Relevant `scipy` functions:* `scipy.sparse.linalg.spsolve` 
