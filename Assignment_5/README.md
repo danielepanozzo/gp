@@ -20,11 +20,15 @@ The algorithm is divided in three phases:
 *Fig. 1: Algorithm Overview*
 
 ### Selecting the handles
-A minimal, lasso-based interface for selecting vertices has been implemented for you. To use it, enable the `SELECT` mouse mode from the menu (or hit 'S'), click somewhere `on` the mesh and drag with your mouse to draw a stroke around the area of the mesh you want to select as a handle. The vertices inside the stroked region are saved in the `selected_v` variable. You have the options to: (a) accept the selected vertices as a new handle region (only if the vertices are not assigned to a handle already) by hitting the relevant button on the menu or key 'A' (Fig.~\ref{fig:smoothing}(a)), (b) discard the selection and make a new one by drawing another stroke somewhere on the mesh. Once a selection is accepted, you can add additional handles by drawing more strokes.
+A minimal sphere-based interface for selecting vertices has been implemented in `Selection.ipynb`.
+To use it, execute the cell with widgets, and select numbered keys to specify the segment index (`+` key to add more).
+Use sliders to adjust the position and radius of the selector sphere, and `Paint!` to mark the current segment.
+Finally, the accepted segments are stored in the variable `segments_recording`,
+which you can save as `npy` file for the next tasks. There are several prepared file with suffix `.label.npy` in the `data/` folder.
 
-As selections are accepted, their vertices are saved in the `handle_vertices` variable. We also store the handle index for each vertex in \texttt{handle\_id} (-1 if the vertex belongs to no handle). The handle region centroids are stored in \texttt{handle\_centroids}.
-
-The selected handles can be transformed by selecting the appropriate mouse mode (`TRANSLATE` / `ROTATE`, shortcuts: ALT+'T', ALT+'R') and dragging with the mouse. While handles are dragged, the updated handle vertex positions are stored in \texttt{handle\_vertex\_positions}.
+In `Assignment5.ipynb`, another interface is provided to specify the displacement and rotation. 
+The dropdown menu specifies which segement is being manipulated, and the slider 
+specifies the displacement `x,y,z` and rotation `α,β,γ`, the updated vertex positions are stored in `handle_vertex_positions`.
 
 ---
 ### Step 1: Removal of high-frequency details
@@ -106,7 +110,7 @@ Applying the transferred displacements to the vertices of <img src="https://rend
 ## Performance (Optional, Bonus 5%)
 To achieve real-time performance, you must prefactor the sparse bi-Laplacian matrix appearing in both linear systems. After the user specifies vertex sets <img src="https://render.githubusercontent.com/render/math?math=H"> and <img src="https://render.githubusercontent.com/render/math?math=F">, you can factorize the matrix <img src="https://render.githubusercontent.com/render/math?math=\textbf{L}_\omega \textbf{M}^{-1} \textbf{L}_\omega"> (using a Cholesky "<img src="https://render.githubusercontent.com/render/math?math=LL^T">" factorization) and then re-use the factorization to solve both linear systems efficiently. This is an optional part of the exercise; if your implementation does not achieve interactive frame-rates (10+ fps) on the gingerbread mesh, it will not receive the full score. This might require additional vectorizations.
 
-*Relevant Packages*: `scikit-sparse`, `numba`.
+*Available Packages*: `scikit-sparse`, `numba`.
 *Relevant functions*: `sksparse.cholmod`, `numba.jit`, `numpy.einsum`.
 
 Required output of this section:
