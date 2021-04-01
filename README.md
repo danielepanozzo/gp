@@ -101,6 +101,10 @@ ISBN 1568814267
 
 [12 - Global Parametrization](https://www.icloud.com/keynote/0g4pYmicITza1RBfZs1G2WOwg#12_-_Global_Parametrization)
 
+[13 - Shape Deformation](https://www.icloud.com/keynote/07ry8Yd1U7R3eiC50_hD6JPmg#13_-_Shape_Deformation)
+
+[14 - Linear Blend Skinning](https://www.icloud.com/keynote/0YKYxVH7VNfRn7L6GUhv4Bz-Q#14_-_Linear_Blend_Skinning)
+
 ## Assignments
 
 [General Instructions](https://github.com/danielepanozzo/gp/blob/master/RULES.md)
@@ -112,3 +116,5 @@ ISBN 1568814267
 [Assignment 3](https://github.com/danielepanozzo/gp/tree/master/Assignment_3)
 
 [Assignment 4](https://github.com/danielepanozzo/gp/tree/master/Assignment_4)
+
+[Assignment 5](https://github.com/danielepanozzo/gp/tree/master/Assignment_5)
