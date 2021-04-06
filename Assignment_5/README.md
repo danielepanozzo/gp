@@ -26,9 +26,13 @@ Use sliders to adjust the position and radius of the selector sphere, and `Paint
 Finally, the accepted segments are stored in the variable `segments_recording`,
 which you can save as `npy` file for the next tasks. There are several prepared file with suffix `.label.npy` in the `data/` folder.
 
+*Note*: the array `seg` stored is of integer type, with values 0,1,2,... where `seg==0` indicates the free vertices, `seg==1` means the first selected segment and so on.
+
 In `Assignment5.ipynb`, another interface is provided to specify the displacement and rotation. 
 The dropdown menu specifies which segement is being manipulated, and the slider 
 specifies the displacement `x,y,z` and rotation `α,β,γ`, the updated vertex positions are stored in `handle_vertex_positions`.
+
+*Note*: within `handle_vertex_positions`, only the entries corresponding to selections (`seg>0`) are supposed to be used.
 
 ---
 ### Step 1: Removal of high-frequency details
