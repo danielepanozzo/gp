@@ -115,7 +115,7 @@ Applying the transferred displacements to the vertices of <img src="https://rend
 To achieve real-time performance, you must prefactor the sparse bi-Laplacian matrix appearing in both linear systems. After the user specifies vertex sets <img src="https://render.githubusercontent.com/render/math?math=H"> and <img src="https://render.githubusercontent.com/render/math?math=F">, you can factorize the matrix <img src="https://render.githubusercontent.com/render/math?math=\textbf{L}_\omega \textbf{M}^{-1} \textbf{L}_\omega"> (using a Cholesky "<img src="https://render.githubusercontent.com/render/math?math=LL^T">" factorization) and then re-use the factorization to solve both linear systems efficiently. This is an optional part of the exercise; if your implementation does not achieve interactive frame-rates (10+ fps) on the gingerbread mesh, it will not receive the full score. This might require additional vectorizations.
 
 *Available Packages*: `scikit-sparse`, `numba`.
-*Relevant functions*: `sksparse.cholmod`, `numba.jit`, `numpy.einsum`.
+*Relevant functions*: `sksparse.cholmod`, `numba.jit`, `numpy.einsum`, `scipy.sparse.linalg.splu`
 
 Required output of this section:
 - Provide screenshots for 4 different deformed meshes. For each example, provide a rendering of <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}">, <img src="https://render.githubusercontent.com/render/math?math=\mathcal{B}">, <img src="https://render.githubusercontent.com/render/math?math=\mathcal{B}'"> and <img src="https://render.githubusercontent.com/render/math?math=\mathcal{S}'">.
