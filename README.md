@@ -106,6 +106,12 @@ ISBN 1568814267
 
 [14 - Linear Blend Skinning](https://www.icloud.com/keynote/0YKYxVH7VNfRn7L6GUhv4Bz-Q#14_-_Linear_Blend_Skinning)
 
+[15 - Meshing](https://www.icloud.com/keynote/0JeLovy3PgKvU-fcB-b8RNe0Q#15_-_Meshing)
+
+[16 - Digital Fabrication](https://www.icloud.com/keynote/01BI9V7MwjS8ESJySt-DJZUvQ#16_-_Digital_Fabrication)
+
+[Final Project Ideas](https://www.icloud.com/keynote/0ZPYGB9tY9KnbFnX-L5pfhXxA#56_-_Project_Ideas)
+
 ## Assignments
 
 [General Instructions](https://github.com/danielepanozzo/gp/blob/master/RULES.md)
@@ -119,3 +125,5 @@ ISBN 1568814267
 [Assignment 4](https://github.com/danielepanozzo/gp/tree/master/Assignment_4)
 
 [Assignment 5](https://github.com/danielepanozzo/gp/tree/master/Assignment_5)
+
+
