@@ -34,8 +34,7 @@ Wednesday, 1pm-2pm on Zoom
 Friday, 4pm-5pm on Zoom
  -->
 ### Lectures:
-Thursdays at 5:10pm - 7pm
-Zoom
+Thursdays at 4:55PM - 6:55PM Zoom
 
 ### Homework Assistance:
 There will be an informal additional presentation for every assignment held on zoom, replacing the normal office hours on the following dates.
