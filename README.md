@@ -29,10 +29,14 @@ Tuesdays, 10am-11am on Zoom
 
 Office Hours (starting from February 8):
 
-Wednesday, 1pm-2pm on Zoom
+-->
 
-Friday, 4pm-5pm on Zoom
- -->
+Mondays  9AM-10AM, 2-3PM
+Tuesdays 10-11AM, 3-4PM
+Wednesday, noon-1pm, 4-5PM
+Thursdays 9AM-10AM
+Friday, 10-11AM, 2-3PM
+ 
 ### Lectures:
 Thursdays at 4:55PM - 6:55PM Zoom
 
@@ -41,7 +45,8 @@ There will be an informal additional presentation for every assignment held on z
 
 | Date    	| Time        	| Location 	| Content      	| 
 |---------	|-------------	|----------	|--------------	| 
-<!-- | Feb.  3 	| 1 pm - 2 pm 	| Zoom     	| [Assignment 1](https://www.icloud.com/keynote/0wn-1ht1UBE9CngZMZXo6KuzQ#51_-_Assignment_1) 	| 
+| Feb.  4 	| 10 am - 11 am 	| Zoom     	| [Assignment 1](https://www.icloud.com/keynote/0wn-1ht1UBE9CngZMZXo6KuzQ#51_-_Assignment_1) 	| 
+<!--
 | Feb. 16 	| 2 pm - 3 pm  	| Zoom     	| [Assignment 2](https://www.icloud.com/keynote/0gd-pCW6PTlUZ_R7i4r5fGBIA#52_-_Assignment_2) 	| 
 | Mar. 8   	| 9 am - 10 am  | Zoom     	| [Assignment 3](https://www.icloud.com/keynote/05ylOXzeoby-YdGWXVsyfG_7g#53_-_Assignment_3) 	| 
 | Mar. 22  	| 9 am - 10 am  | Zoom     	| [Laplacian](https://www.icloud.com/keynote/0cxngM8nUSjJUKau3utjlJYYw#55_-_Cotangent_Laplacian) 	| 
