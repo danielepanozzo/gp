@@ -62,10 +62,17 @@ Required output of this section:
 For this task, you will experiment with the different ways of shading discrete surfaces already implemented in `igl`.
 Display the mesh with the appropriate shading.
 
-Use `meshplot.plot(v,f, n=n)` to set the shading in the viewer to use the normals `n` you computed.
+Use `meshplot.plot(v,f, n=n, shading={"flat": False})` to set the shading in the viewer to use the normals `n` you computed.
+
+You can visualise normals `n` by using meshplot as following
+```python
+p = meshplot.plot(v, f, n=n, shading={"flat": False})
+p.add_lines(v, v + 0.01*n)
+```
+The scaling `0.01` is used to scale the lines to a reasonable size; that is, for the cube `0.5` is ok, while for the sphere `0.01` is better.
 
 
-*Note:* `meshplot` supports only per vertex normals, thus, to visualize the different shading you will need to "explode" the mesh. That is, separate all faces and duplicate vertices. For instance, if the mesh has faces `f=[[0, 1, 2], [1, 3, 2]]` (with vertices `1` and `2` shared among the two faces), `exploded_f=[[0, 1, 2], [3, 4, 5]]` with the vertices `3` and `5` being a copy of vertices `1` and `2`. Note that igl will give you per-vertex, per-face, and per-vertex-per-face quantities, so you will need to compute and store an index mapping from the input mesh to the exploded one.
+*Note:* `meshplot` supports only per-vertex normals; thus, to visualize the different shading you will need to "explode" the mesh. That is, separate all faces and duplicate vertices. For instance, if the mesh has faces `f=[[0, 1, 2], [1, 3, 2]]` (with vertices `1` and `2` shared among the two faces), `exploded_f=[[0, 1, 2], [3, 4, 5]]` with the vertices `3` and `5` being a copy of vertices `1` and `2`. Note that `igl` will give you per-vertex, per-face, and per-vertex-per-face quantities, so you will need to compute and store an index mapping from the input mesh to the exploded one.
 
 ### Flat Shading
 ![](img/face.png?raw=true)
