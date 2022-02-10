@@ -41,7 +41,7 @@ Input point cloud for the *cat* mesh and inward/outward value constraints. The g
 
 Required output of this section:
 
- * Screenshots of the provided point cloud shaded with green, blue, and red dots.
+ * Plot of the provided point cloud shaded with green, blue, and red dots.
 
 
 
@@ -72,7 +72,7 @@ Store the field value  `fx = f(xi)` in a  `numpy.array`, using the same ordering
 
 Required output of this section:
 
- * Screenshots of the grid points `x` colored according of being inside or outside the input cloud.
+ * Plot of the grid points `x` colored according of being inside or outside the input cloud.
 
 
 
@@ -98,7 +98,7 @@ Running reconstruction on an axis-aligned grid is wasteful in this case: many of
 
 Required output of this section:
 
-* Screenshots of the grid with nodes colored according to their implicit function values.
+* Plot of the grid with nodes colored according to their implicit function values.
 
 
 ## Extracting the surface
@@ -112,12 +112,12 @@ The extraction has already been implemented and the surface is displayed. The im
 
 Required output of this section:
 
-* Screenshots of the reconstructed surfaces. Experiment with different parameter settings: grid resolution (also anisotropic in the 3 axes), Wendland function radius, and polynomial degree.
+* Plot of the reconstructed surfaces. Experiment with different parameter settings: grid resolution (also anisotropic in the 3 axes), Wendland function radius, and polynomial degree.
 
 ## Optional tasks
 
-* *(2 points)* Compute the closed-form gradient of the MLS approximation. Suggestion: A good strategy to solve this exercise is to write MLS explicitly in matrix form and then compute its gradient (a good reference for differentiating expressions with matrices can be found in [The Matrix Cookbook](http://orion.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf).
-
+<!-- * *(2 points)* Compute the closed-form gradient of the MLS approximation. Suggestion: A good strategy to solve this exercise is to write MLS explicitly in matrix form and then compute its gradient (a good reference for differentiating expressions with matrices can be found in [The Matrix Cookbook](http://orion.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf).
+ -->
 * *(2 points)* In [Interpolating and Approximating Implicit Surfaces from Polygon Soup](http://graphics.berkeley.edu/papers/Shen-IAI-2004-08/index.html) normals are used differently to define the implicit surface. Instead of generating new sample points offset in the positive and negative normal directions, the paper uses the normal to define a linear function for each point cloud point: the signed distance to the tangent plane at the point.
 Then the values of these linear functions are interpolated by MLS. Implement Section 3.3 of the paper and append to your report a description of the method and how it compares to the original point-value-based approach.
 Estimate a normal for results obtained with single dataset.
