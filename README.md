@@ -10,26 +10,11 @@ Office Hours: Thursdays, 3pm-4pm on Zoom
 
 ### Assistants
 
-TBD
-<!-- *Zhongshi Jiang*
+*Ryan Capouellez, Arvi Gjoka, Yunfan Zhou*
 
-[https://cs.nyu.edu/~zhongshi/](https://cs.nyu.edu/~zhongshi/)
-[zhongshi@cims.nyu.edu ](mailto:zhongshi@cims.nyu.edu )
+Contact Information: Discord
 
 Office Hours (starting from February 8):
-
-Mondays, 9am-10am on Zoom
-
-Tuesdays, 10am-11am on Zoom
-
-*Siqi Wang*
-
-[https://cs.nyu.edu/~sw4429/](https://cs.nyu.edu/~sw4429/)
-[sw4429@nyu.edu](mailto:sw4429@nyu.edu)
-
-Office Hours (starting from February 8):
-
--->
 
 Mondays  9AM-10AM, 2-3PM
 Tuesdays 10-11AM, 3-4PM
@@ -46,8 +31,8 @@ There will be an informal additional presentation for every assignment held on z
 | Date    	| Time        	| Location 	| Content      	| 
 |---------	|-------------	|----------	|--------------	| 
 | Feb.  4 	| 10 am - 11 am 	| Zoom     	| [Assignment 1](https://www.icloud.com/keynote/0wn-1ht1UBE9CngZMZXo6KuzQ#51_-_Assignment_1) 	| 
+| Feb. 18 	| 2 pm - 3 pm  	| Zoom     	| [Assignment 2](https://www.icloud.com/keynote/0gd-pCW6PTlUZ_R7i4r5fGBIA#52_-_Assignment_2) 	| 
 <!--
-| Feb. 16 	| 2 pm - 3 pm  	| Zoom     	| [Assignment 2](https://www.icloud.com/keynote/0gd-pCW6PTlUZ_R7i4r5fGBIA#52_-_Assignment_2) 	| 
 | Mar. 8   	| 9 am - 10 am  | Zoom     	| [Assignment 3](https://www.icloud.com/keynote/05ylOXzeoby-YdGWXVsyfG_7g#53_-_Assignment_3) 	| 
 | Mar. 22  	| 9 am - 10 am  | Zoom     	| [Laplacian](https://www.icloud.com/keynote/0cxngM8nUSjJUKau3utjlJYYw#55_-_Cotangent_Laplacian) 	| 
 | Mar. 24   | 1 pm - 2 pm   | Zoom     	| [Assignment 4](https://www.icloud.com/keynote/07GdsuR4kfuF0G7JzvzdTjpDw#54_-_Assignment_4) 	| 
