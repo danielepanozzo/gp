@@ -16,6 +16,10 @@ implemented.
 
 No libraries apart from `libigl`, `numpy`, `meshplot`, and `scipy` are permitted unless permission is granted in advance.
 
+## Video Report
+
+For every assignment, you have to provide a video report of a maximal lenght of 3 minutes. The video should contain either captions explaining what you did and the results of your assignment or a voice commentary. To prepare the video, I recommend to use either the recording option in NYU Zoom (you can create a call with only you, share the window with your browser, and then press record) or OBS (https://obsproject.com/). The video should be in a format playable using the VLC player (https://www.videolan.org/vlc/).
+
 ## Installing igl in Python
 
 Before we can begin, you must install `igl`, `meshplot`, and `jupiter` trough conda-forge
