@@ -8,7 +8,7 @@ In this exercise you will
 * Experiment with different ways to compute surface normals for triangle meshes.
 * Calculate curvatures from a triangle mesh.
 * Perform mesh smoothing.
-8 Familiarize yourselves with the relevant implementations in `libigl`
+* Familiarize yourselves with the relevant implementations in `libigl`
 
 ## Vertex Normals
 Starting from the `libigl` tutorial, experiment with different ways to compute per-vertex normals.
