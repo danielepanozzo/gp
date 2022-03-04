@@ -10,17 +10,21 @@ Office Hours: Thursdays, 3pm-4pm on Zoom
 
 ### Assistants
 
-*Ryan Capouellez, Arvi Gjoka, Yunfan Zhou*
+*Ryan Capouellez, Arvi Gjoka, YunFan Zhou*
 
 Contact Information: Discord
 
 Office Hours (starting from February 8):
 
-Mondays  9AM-10AM, 2-3PM
-Tuesdays 10-11AM, 3-4PM
-Wednesday, noon-1pm, 4-5PM
-Thursdays 9AM-10AM
-Friday, 10-11AM, 2-3PM
+Mondays 10AM-11AM, 2PM-3PM 
+
+Tuesdays 11AM-noon, 3PM-4PM 
+
+Wednesday noon-1PM, 4PM-5PM 
+
+Thursdays 10AM-11AM 
+
+Friday, 11AM-noon, 2PM-3PM
  
 ### Lectures:
 Thursdays at 4:55PM - 6:55PM Zoom
