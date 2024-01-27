@@ -16,11 +16,11 @@ Contact Information: Discord
 
 Office Hours (starting from February 1):
 
-Mondays 10AM-11AM, 60 5th Ave, 402
-Tuesdays 3PM-4PM, 60 5th Ave, 502
-Wednesday noon-1PM, 60 5th Ave, 402
-Thursdays 10AM-11AM (zoom)
-Friday, 2PM-3PM (zoom)
+* Mondays 10AM-11AM, 60 5th Ave, 402
+* Tuesdays 3PM-4PM, 60 5th Ave, 502
+* Wednesday noon-1PM, 60 5th Ave, 402
+* Thursdays 10AM-11AM (zoom)
+* Friday, 2PM-3PM (zoom)
 
 ### Lectures:
 Thursdays at 4:55PM - 6:55PM, Silver 411
