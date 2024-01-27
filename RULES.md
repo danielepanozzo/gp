@@ -22,12 +22,12 @@ For every assignment, you have to provide a video report of a maximal lenght of 
 
 ## Installing igl in Python
 
-Before we can begin, you must install `igl`, `meshplot`, and `jupiter` trough conda-forge
+Before we can begin, you must install `igl`, `meshplot`, and `jupiter` trough pip (do not use conda for igl, as it is outdated)
 ```bash
-conda install -c conda-forge igl
-conda install -c conda-forge meshplot
-conda install scipy
-conda install jupyter
+pip install libigl
+pip install meshplot
+pip install scipy
+pip install notebook
 ```
 
 ### Using jupyter notebook
@@ -36,7 +36,7 @@ Launch the notebook
 jupyter notebook
 ```
 
-### Using jupyter lab
+<!-- ### Using jupyter lab
 You need first install `nodejs` with version >= 12.0.0, e.g.
 ```bash
 conda install nodejs==14.7.0 -c conda-forge
@@ -60,4 +60,4 @@ Or you can simply download the file `environment.yml` uploaded to create conda e
 conda env create -f environment.yml
 ```
 
-To install the package manager conda we refer to its [website](https://docs.conda.io/en/latest/miniconda.html).
+To install the package manager conda we refer to its [website](https://docs.conda.io/en/latest/miniconda.html). -->
