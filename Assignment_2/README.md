@@ -11,7 +11,7 @@ Your main task is to construct an implicit function `f(x)` defined on all `x`  R
 
 You will construct `f` by interpolating a set of target values, `di`, at "constraint locations", `ci`.
 The MLS interpolant is defined by minimization of the form<br/>
-![](https://latex.codecogs.com/svg.latex?f(x)=\mathrm{argmin}_\phi\sum_{i}w(ci,&space;x)(\phi(ci)-di)^2,)<br/>
+![](https://latex.codecogs.com/png.image?\dpi{110}\bg{white}&space;f(x)=\mathrm{argmin}_\phi\sum_{i}w(ci,&space;x)(\phi(ci)-di)^2,)<br/>
 <!-- $f(\x) = \argmin_\phi \sum_{i} w(\c_i, \x) (\phi(\c_i) -
 d_i)^2,$ -->
 where `phi(x)` lies in the space of admissible function (e.g.,
