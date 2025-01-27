@@ -19,20 +19,44 @@ No libraries apart from `libigl`, `numpy`, `meshplot`, and `scipy` are permitted
 
 For every assignment, you should provide a report in the form of a runnable Jupiter notebook including results for all steps described in the assignment. Please also add illustrations and text as needed to explain what you did. In addition to the notebook, you should also attach an html version of the notebook, exported using ``nbconvert``.
 
-## Installing igl in Python
+## Installing igl in Python (in a venv)
 
-Before we can begin, you must install `igl`, `meshplot`, and `jupiter` trough pip (do not use conda for igl, as it is outdated)
+*** Warning: You must use Python 3.12 or older; Python 3.13 is not yet supported by libigl ***
+
+First set up a virtual environment
+```bash
+mkdir gp25
+python3.12 -m venv gp25
+source gp25/bin/activate
+```
+
+Then install `igl`, `meshplot`, and `jupiter` trough pip (do not use conda for igl, as it is outdated)
 ```bash
 pip install libigl
-pip install meshplot
-pip install scipy
+pip install git+https://github.com/skoch9/meshplot/
+pip install pythreejs
 pip install notebook
 ```
 
 ### Using jupyter notebook
-Launch the notebook
+Launch the lab
 ```
-jupyter notebook
+gp25/bin/jupyter notebook
+```
+
+#### Toubleshooting
+
+If you see
+```
+Renderer(camera=PerspectiveCamera(children=(DirectionalLight(color='white', intensity=0.6, position=(-0.016860…
+<meshplot.Viewer.Viewer at 0x136ed5d90>
+```
+
+instead of a 3D view, follow the instructions here to install pythreejs: https://pythreejs.readthedocs.io/en/stable/
+
+```
+pip install pythreejs
+jupyter labextension install jupyter-threejs
 ```
 
 <!-- ### Using jupyter lab
