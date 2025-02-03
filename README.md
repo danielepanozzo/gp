@@ -14,9 +14,8 @@ Office Hours: Mondays, 3.50pm-4.50pm, 60 5th Ave, 504
 
 Contact Information: Discord
 
-Office Hours (starting from February 1):
+Office Hours:
 
-* Mondays TBD, 60 5th Ave, 402
 * Tuesdays 11:05AM - 12:05PM, 60 5th Ave, 502
 * Wednesday 4:00PM - 5:00PM, 60 5th Ave, 502
 * Thursdays 10:00AM - 11:00AM (zoom)
