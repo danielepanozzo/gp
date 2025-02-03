@@ -6,7 +6,8 @@
 [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 [panozzo@nyu.edu](mailto:panozzo@nyu.edu)
 
-Office Hours: Mondays, 3.50pm-4.50pm, 60 5th Ave, 504
+Lecture: Mondays 4:55PM - 6:55PM, 60 5th Ave, C10
+Office Hour: Mondays, 3.50pm-4.50pm, 60 5th Ave, 504
 
 ### Assistants
 
@@ -21,8 +22,6 @@ Office Hours:
 * Thursdays 10:00AM - 11:00AM (zoom)
 * Friday, 2:00PM - 3:00PM (zoom)
 
-### Lectures:
-Mondays 4:55PM - 6:55PM, 60 5th Ave, 504
 
 ## Course Description
 
