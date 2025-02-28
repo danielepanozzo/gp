@@ -7,7 +7,8 @@
 [panozzo@nyu.edu](mailto:panozzo@nyu.edu)
 
 Lecture: Mondays 4:55PM - 6:55PM, 60 5th Ave, C10
-Office Hour: Mondays, 3.50pm-4.50pm, 60 5th Ave, 504
+
+Office Hour: Mondays, 2-3PM, Zoom (link will be shared on discord)
 
 ### Assistants
 
