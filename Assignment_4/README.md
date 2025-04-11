@@ -102,13 +102,13 @@ Required output for this section:
 Your task is now to find a scalar function `S(x)` defined over the surface whose gradient fits a given vector field as closely as possible.
 The scalar field is defined by values on the mesh vertices that are linearly interpolated over each triangle's interior: for given vertex values `si`, the function `S(x)` inside a triangle `t` is computed as
 <br/>
-![](https://latex.codecogs.com/svg.latex?S_t(x)=\sum\limits_{\textrm{vertex}~i~\in~t}^3s_i\phi_i^t(x))<br/>
+![](https://latex.codecogs.com/svg.latex?S_t(x)=\sum\limits_{\text{vertex%20}%20i%20\in%20t}^3s_i\phi_i^t(x))<br/>
 <!-- $S_t(\x) =
 \sum\limits_{\textrm{vertex}~i~\in~t}^3 s_i \phi_i^t(\x)$,  -->
 where `phi_i^t(x)` are the linear "hat" functions associated with each triangle vertex (i.e. `phi_i^t(x)` is linear and takes the value 1 at vertex i and 0 at all other vertices).
 Then the scalar function's (vector-valued) gradient is
 <br/>
-![](https://latex.codecogs.com/svg.latex?g_t=\nabla&space;S_t=\sum\limits_{\textrm{vertex}~i~\in~t}^3s_i\nabla\phi_i^t.)<br/>
+![](https://latex.codecogs.com/svg.latex?g_t=\nabla%20S_t=\sum\limits_{\text{vertex%20}i%20\in%20t}^3%20s_i\nabla\phi_i^t)<br/>
 <!-- $\vec g_t = \nabla S_t = \sum\limits_{\textrm{vertex}~i~\in~t}^3 s_i \nabla\phi_i^t$. -->
 
 Since the "hat" functions are piecewise linear, their  gradients
@@ -118,7 +118,7 @@ are constant within each triangle, and so is `gt` (the full scalar function's gr
 Since there is no guarantee that our interpolated face-based field is actually the gradient of some function, we cannot attempt to integrate it directly.
 Instead, we will try to find `S(x)` by asking its gradient to approximate the vector field `u` in the least-squares sense:
 <br/>
-![](https://latex.codecogs.com/svg.latex?\min\quad\sum\limits_{\textrm{face}~t}A_t\|g_t-u_t\|^2,)<br/>
+![](https://latex.codecogs.com/svg.latex?\min\quad\sum\limits_{\textrm{face%20}t}A_t\||g_t-u_t\||^2)<br/>
 <!-- \bdm{
 \min ~~\sum\limits_{\textrm{face}~t} A_t \|\vec g_t-\vec u_t\|^2,\\
 } -->
